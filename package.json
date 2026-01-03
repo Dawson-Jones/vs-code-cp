@@ -29,5 +29,9 @@
         "when": "editorTextFocus && editorHasSelection"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dawson-Jones/vs-code-cp.git"
   }
 }
