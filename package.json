@@ -2,7 +2,7 @@
   "name": "copy-selection-with-location",
   "displayName": "Copy Selection With Location",
   "description": "Copy selected lines with file path and line range.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "local",
   "engines": {
     "vscode": "^1.80.0"

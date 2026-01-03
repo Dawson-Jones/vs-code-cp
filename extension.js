@@ -26,7 +26,7 @@ function getLineRange(selection) {
 
 function buildBlock(relativePath, range, text) {
   let cleaned = text.replace(/\r?\n$/, "");
-  return `${relativePath}:${range.startLine}-${range.endLine}\n\`\`\`\n${cleaned}\n\`\`\``;
+  return `${relativePath}:${range.startLine}-${range.endLine}\n\`\`\`\n${cleaned}\n\`\`\`\n\n`;
 }
 
 function activate(context) {
