@@ -1,0 +1,33 @@
+{
+  "name": "copy-selection-with-location",
+  "displayName": "Copy Selection With Location",
+  "description": "Copy selected lines with file path and line range.",
+  "version": "0.0.1",
+  "publisher": "local",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:copySelectionWithLocation.copy"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "copySelectionWithLocation.copy",
+        "title": "Copy Selection With Location"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "copySelectionWithLocation.copy",
+        "key": "ctrl+alt+c",
+        "mac": "cmd+alt+c",
+        "when": "editorTextFocus && editorHasSelection"
+      }
+    ]
+  }
+}
